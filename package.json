@@ -1,6 +1,7 @@
 {
-	"name": "css-fabric-gutters",
+	"name": "@medyll/css-fabric-gutters",
 	"version": "0.0.1",
+	"scope": "medyll",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
