@@ -1,3 +1,5 @@
+import { selector } from '@medyll/htmludom';
+
 function cssFabricGutters() {
 	if (typeof window === 'undefined') return;
 
@@ -12,6 +14,10 @@ function cssFabricGutters() {
             }
         `;
 		window.document.head.appendChild(style);
+
+		selector('[data-gutter]', (element: Element) => {
+			console.log(element);
+		});
 	});
 	return {
 		config: () => {}
