@@ -1,0 +1,27 @@
+{
+  "name": "css-fabric-gutters",
+  "version": "0.0.1",
+  "description": "padding, but with some gutters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medyll/css-fabric-gutters.git"
+  },
+  "keywords": [
+    "cssFabric",
+    "css-fabric",
+    "padding",
+    "gutters",
+    "lebrun",
+    "meddy"
+  ],
+  "author": "lebrun meddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/medyll/css-fabric-gutters/issues"
+  },
+  "homepage": "https://github.com/medyll/css-fabric-gutters#readme"
+}
