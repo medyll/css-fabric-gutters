@@ -14,12 +14,7 @@ function cssFabricGutters() {
 		window.document.head.appendChild(style);
 	});
 	return {
-		'& .ms-Fabric': {
-			margin: '0 auto',
-			maxWidth: '100%',
-			padding: '0 16px',
-			width: '100%'
-		}
+		config: () => {}
 	};
 }
 
